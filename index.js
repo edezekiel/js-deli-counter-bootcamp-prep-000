@@ -25,7 +25,7 @@ function currentLine(katzDeli){
       }
       else {currentline.push([', ${i}. ${katzDeli[i]}'])
   return currentLine;
-  }
+}
 }
 
 
