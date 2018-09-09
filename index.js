@@ -16,7 +16,7 @@ function nowServing(katzDeli){
 function currentLine(katzDeli){
   if (katzDeli.length = 0) {
   return "There is nobody waiting to be served!";}
-  
+
   else {
     var currentLine = "The line is currently: ";
 
@@ -25,6 +25,7 @@ function currentLine(katzDeli){
       currentline.push(['${i}. ${katzDeli[i]}'])
       } else {
       currentline.push([', ${i}. ${katzDeli[i]}'])}
+      
   return currentLine;
   }
 }
