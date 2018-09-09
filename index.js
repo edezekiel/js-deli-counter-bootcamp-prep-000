@@ -26,10 +26,8 @@ function currentLine(katzDeli){
       line.concat(`${i}. ${katzDeli[i]}`)
       } else {
       line.concat(`, ${i}. ${katzDeli[i]}`)
-
+      }
+    }
   return line;
   }
-}
-}
-
 }
