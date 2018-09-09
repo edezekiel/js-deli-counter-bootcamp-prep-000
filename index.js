@@ -18,13 +18,13 @@ function currentLine(katzDeli){
   return "There is nobody waiting to be served!";}
 
   else {
-    var line = "The line is currently: ";
+    var line = "The line is currently: "
 
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 1) {
-      var newLine = line + (`${i}. ${katzDeli[i]}`)
+      var newLine = line + `${i}. ${katzDeli[i]}`
       } else {
-      var newLine = line + (`, ${i}. ${katzDeli[i]}`)}
+      var newLine = line + `, ${i}. ${katzDeli[i]}`}
 
   return newLine;
   }
