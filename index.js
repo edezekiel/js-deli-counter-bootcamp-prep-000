@@ -23,7 +23,7 @@ function currentLine(katzDeli){
 
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 0) {
-      line += `${i}. ${katzDeli[i]}`;
+      line += `${i}. ${katzDeli[i]}, `;
 
       } else {
       line += `, ${i}. ${katzDeli[i]}`
