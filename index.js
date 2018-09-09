@@ -22,9 +22,9 @@ function currentLine(katzDeli){
     var newLine = line;
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 1) {
-      var newLine = line + `${i}. ${katzDeli[i]}`
+      newLine += `${i}. ${katzDeli[i]}`
       } else {
-      var newLine = line + `, ${i}. ${katzDeli[i]}`}
+      newLine += `, ${i}. ${katzDeli[i]}`}
 
   return newLine;
   }
