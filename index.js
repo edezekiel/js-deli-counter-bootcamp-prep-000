@@ -23,11 +23,11 @@ function currentLine(katzDeli){
 
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 1) {
-      line += `${i}. ${katzDeli[i]}`
+      var newLine = line.concat(`${i}. ${katzDeli[i]}`)
       } else {
-      line += `, ${i}. ${katzDeli[i]}`}
+      var newLine = line.concat(`, ${i}. ${katzDeli[i]}`)
 
-  return "The line is currently: " + line;
+  return newLine;
   }
 }
 }
