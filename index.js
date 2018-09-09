@@ -26,7 +26,7 @@ function currentLine(katzDeli){
       line += `${i}. ${katzDeli[i]}`;
 
       } else {
-      line += `, ${i}. ${katzDeli[i]}`
+      line += `, ${i+1}. ${katzDeli[i]}`
       }
 
     }
