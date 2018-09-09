@@ -24,10 +24,12 @@ function currentLine(katzDeli){
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 1) {
       line.concat(`${i}. ${katzDeli[i]}`)
+
       } else {
       line.concat(`, ${i}. ${katzDeli[i]}`)
       }
     }
+
   return line;
   }
 }
