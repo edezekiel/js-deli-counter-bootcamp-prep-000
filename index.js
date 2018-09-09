@@ -22,10 +22,10 @@ function currentLine(katzDeli){
 
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 1) {
-      currentline.push(['${i}. ${katzDeli[i]}'])
+      currentline.push(`${i}. ${katzDeli[i]}`)
       } else {
-      currentline.push([', ${i}. ${katzDeli[i]}'])}
-      
+      currentline.push(`, ${i}. ${katzDeli[i]}`)}
+
   return currentLine;
   }
 }
