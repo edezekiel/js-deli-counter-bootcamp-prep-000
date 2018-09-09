@@ -26,7 +26,7 @@ function currentLine(katzDeli){
       } else {
       var newLine = line + (`, ${i}. ${katzDeli[i]}`)}
 
-  return line;
+  return newLine;
   }
 }
 }
