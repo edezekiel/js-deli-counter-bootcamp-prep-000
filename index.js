@@ -17,9 +17,9 @@ function currentLine(katzDeli){
   var line = "The line is currently: "
 
   if (katzDeli.length = 0) {
-  return "There is nobody waiting to be served!";}
+  return "There is nobody waiting to be served!";
 
-  else {
+  } else {
 
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 1) {
@@ -29,5 +29,5 @@ function currentLine(katzDeli){
 
   return newLine;
   }
-}
+
 }
