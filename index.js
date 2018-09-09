@@ -15,6 +15,7 @@ function nowServing(katzDeli){
 
 function currentLine(katzDeli){
   var line = "The line is currently: "
+  var newLine = line
 
   if (katzDeli.length = 0) {
   return "There is nobody waiting to be served!";
@@ -23,9 +24,9 @@ function currentLine(katzDeli){
 
     for (let i = 0; i < katzDeli.length; i++) {
       if (i === 1) {
-      var newLine = line.concat(`${i}. ${katzDeli[i]}`)
+      newLine.concat(`${i}. ${katzDeli[i]}`)
       } else {
-      var newLine = line.concat(`, ${i}. ${katzDeli[i]}`)
+      newLine.concat(`, ${i}. ${katzDeli[i]}`)
 
   return newLine;
   }
