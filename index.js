@@ -26,7 +26,7 @@ function currentLine(katzDeli){
     //   } else {
     //   newLine += `, ${i}. ${katzDeli[i]}`}
 
-  return "The line is currently: ";
+  return "The line is currently: " + "line";
   }
 }
 
